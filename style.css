@@ -1,0 +1,65 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.list-comments {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.mod {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.input-comment {
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin: 10px auto 10px auto;
+}
+
+.add-comment-btn {
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
